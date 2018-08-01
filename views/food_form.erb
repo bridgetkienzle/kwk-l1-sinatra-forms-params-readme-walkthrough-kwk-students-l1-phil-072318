@@ -2,14 +2,31 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Favorite Food</title>
+    <title>Quiz</title>
   </head>
 
   <body>
-    <h1>Favorite Food</h1>
-    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSwGoDVUDPLd8f_397Fp9BrLKlu-6msu0sSiT0LeEZQ8Ga2228z">
+    <h1>Take this quiz to find a superhero movie to fit your needs</h1>
+    <!--<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSwGoDVUDPLd8f_397Fp9BrLKlu-6msu0sSiT0LeEZQ8Ga2228z">-->
 
     <!-- Insert Your Form Below -->
-
+    <form method = POST>
+        <p>Marvel movie or DC movie?</p>
+      <input type= "radio" name = "questionone" value = "Marvel">Marvel
+      <input type= "radio" name = "questionone" value = "DC">DC
+      
+      <p>Older movie or a newer movie?</p>
+      <input type= "radio" name = "questiontwo" value = "old">Old (2008-2014)
+      <input type= "radio" name = "questiontwo" value = "new">New (2015-2018)
+      
+      <p>Team movie or a solo movie?</p>
+      <input type= "radio" name = "questionthree" value = "Team">Team
+      <input type= "radio" name = "questionthree" value = "Solo">Solo
+      
+      <p>Sad movie or a comical movie?</p>
+      <input type= "radio" name = "questionfour" value = "serious">Serious
+      <input type= "radio" name = "questionfour" value = "comical">Comical
+      
+      <input type= "submit" value= "Find the movies for you">
   </body>
 </html>
